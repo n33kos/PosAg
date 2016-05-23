@@ -1,6 +1,11 @@
 # PosAg
 PosAg (Position Aggregator) is a configurable scraper developed for aggregation of specific search URLs
 
+# Dependencies
+- Ruby >=v2.0.0
+- Gems:
+	- nokogiri
+
 # Usage
 1. Configure scraping sources by modifying ```config```:
 > - ```base_url``` - The base url for your scrape source. This is used for rebuilding partial urls.
